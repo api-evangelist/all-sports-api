@@ -5,7 +5,7 @@ apis:
   - aid: all-sports-api:all-sports-api
     name: All Sports API
     tags:
-      - API
+      - Sports
     humanURL: ' https://allsportsapi.com/'
     properties:
       - url: ' https://allsportsapi.com/'
