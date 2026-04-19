@@ -1,34 +1,108 @@
 aid: all-sports-api
 url: >-
   https://raw.githubusercontent.com/api-evangelist/all-sports-api/refs/heads/main/apis.yml
+modified: '2026-04-19'
+name: All Sports API
+description: >-
+  All Sports API is a fast, reliable, and comprehensive sports data API
+  providing livescore feeds, fixtures, standings, and historical data for major
+  sports worldwide. The platform offers JSON pull-based APIs for football
+  (soccer), basketball, cricket, and tennis, with hockey, baseball, and American
+  football available as additional sports. The API base URL is
+  apiv2.allsportsapi.com and uses API key authentication with sport-specific
+  endpoints accessed via the met query parameter. All Sports API also provides
+  free embeddable widgets (results, fixtures, standings, livescore) and
+  WordPress plugins. Plans include a 14-day free trial.
 apis:
-  - aid: all-sports-api:all-sports-api
-    name: All Sports API
+  - aid: all-sports-api:football-api
+    name: All Sports Football API
+    description: >-
+      The All Sports Football (Soccer) API provides real-time and historical
+      football data including livescores, fixtures, standings, team information,
+      player statistics, and league data for major football leagues worldwide.
+      Data is returned as JSON using a pull-based model with API key
+      authentication.
+    humanURL: https://allsportsapi.com/soccer-football-api
+    baseURL: https://apiv2.allsportsapi.com/football
     tags:
       - Sports
-    humanURL: ' https://allsportsapi.com/'
+      - Football
+      - Soccer
+      - Livescore
+      - Fixtures
+      - Standings
     properties:
-      - url: ' https://allsportsapi.com/'
-        type: Documentation
+      - type: Documentation
+        url: https://allsportsapi.com/soccer-football-api-documentation
+  - aid: all-sports-api:basketball-api
+    name: All Sports Basketball API
     description: >-
-      The place of fast, reliable, easy to implement, awesome documented and comprehensive
-      sports API. Join the service and take advantages of livescore feeds from major
-      world wide sports like soccer, basketball, hockey, baseball, american football,
-      cricket and much more.
-name: All Sports
+      The All Sports Basketball API provides real-time and historical basketball
+      data including livescores, fixtures, standings, countries, and league
+      information. The API supports major basketball leagues worldwide.
+    humanURL: https://allsportsapi.com/basketball-api-documentation
+    baseURL: https://apiv2.allsportsapi.com/basketball
+    tags:
+      - Sports
+      - Basketball
+      - Livescore
+      - Fixtures
+      - Standings
+    properties:
+      - type: Documentation
+        url: https://allsportsapi.com/basketball-api-documentation
+  - aid: all-sports-api:cricket-api
+    name: All Sports Cricket API
+    description: >-
+      The All Sports Cricket API provides real-time and historical cricket data
+      including livescores, fixtures, standings, and league information for
+      major cricket competitions worldwide.
+    humanURL: https://allsportsapi.com/cricket-api-documentation
+    baseURL: https://apiv2.allsportsapi.com/cricket
+    tags:
+      - Sports
+      - Cricket
+      - Livescore
+      - Fixtures
+    properties:
+      - type: Documentation
+        url: https://allsportsapi.com/cricket-api-documentation
+  - aid: all-sports-api:tennis-api
+    name: All Sports Tennis API
+    description: >-
+      The All Sports Tennis API provides real-time and historical tennis data
+      including livescores, fixtures, standings, and tournament information for
+      major tennis competitions worldwide.
+    humanURL: https://allsportsapi.com/tennis-api-documentation
+    baseURL: https://apiv2.allsportsapi.com/tennis
+    tags:
+      - Sports
+      - Tennis
+      - Livescore
+      - Fixtures
+    properties:
+      - type: Documentation
+        url: https://allsportsapi.com/tennis-api-documentation
+common:
+  - type: Website
+    url: https://allsportsapi.com/
+  - type: Documentation
+    url: https://allsportsapi.com/
+  - type: Pricing
+    url: https://allsportsapi.com/
+  - type: SignUp
+    url: https://allsportsapi.com/register
 tags:
   - Sports
-type: Index
-image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-access: 3rd-Party
-created: '2025-03-01'
-modified: '2026-03-16'
-position: ''
-description: >-
-  The place of fast, reliable, easy to implement, awesome documented and comprehensive
-  sports API. Join the service and take advantages of livescore feeds from major world
-  wide sports like soccer, basketball, hockey, baseball, american football, cricket
-  and much more.
+  - Football
+  - Soccer
+  - Basketball
+  - Cricket
+  - Tennis
+  - Livescore
+  - Sports Data
+  - Fixtures
+  - Standings
 maintainers:
   - FN: Kin Lane
     email: kin@apievangelist.com

@@ -1,41 +1,17 @@
-# All Sports (all-sports-api)
-The place of fast, reliable, easy to implement, awesome documented and comprehensive sports API. Join the service and take advantages of livescore feeds from major world wide sports like soccer, basketball, hockey, baseball, american football, cricket and much more. 
+# All Sports API
 
-**URL:** [Visit APIs.json URL](https://raw.githubusercontent.com/api-evangelist/all-sports-api/refs/heads/main/apis.yml)
+All Sports API is a fast, reliable, and comprehensive sports data API providing livescore feeds, fixtures, standings, and historical data for major sports worldwide. The platform offers JSON pull-based APIs for football (soccer), basketball, cricket, and tennis, with hockey, baseball, and American football available as additional sports.
 
-## Scope
-
-- **Type:** Index 
-- **Access:** 3rd-Party 
-
-## Tags:
-
- - Sports
-
-## Timestamps
-
-- **Created:** 2025-03-01 
-- **Modified:** 2025-03-01 
+The API base URL is `apiv2.allsportsapi.com` and uses API key authentication. All Sports API also provides free embeddable widgets (results, fixtures, standings, livescore) and WordPress plugins for easy website integration. Plans include a 14-day free trial.
 
 ## APIs
 
-### All Sports API
-The place of fast, reliable, easy to implement, awesome documented and comprehensive sports API. Join the service and take advantages of livescore feeds from major world wide sports like soccer, basketball, hockey, baseball, american football, cricket and much more. 
+- **[Football API](https://allsportsapi.com/soccer-football-api)** - Real-time and historical football/soccer data including livescores, fixtures, standings, and statistics
+- **[Basketball API](https://allsportsapi.com/basketball-api-documentation)** - Basketball livescores, fixtures, standings, countries, and league data
+- **[Cricket API](https://allsportsapi.com/cricket-api-documentation)** - Cricket livescores, fixtures, and competition data
+- **[Tennis API](https://allsportsapi.com/tennis-api-documentation)** - Tennis livescores, fixtures, and tournament information
 
-**Human URL:** [ https://allsportsapi.com/]( https://allsportsapi.com/)
+## Links
 
-
-#### Tags:
-
- - Sports
-
-#### Properties
-
-- [Documentation]( https://allsportsapi.com/)
-
-## Maintainers
-
-**FN:** Kin Lane
-
-**Email:** info@apievangelist.com
-
+- [Website](https://allsportsapi.com/)
+- [RapidAPI Listing](https://rapidapi.com/fluis.lacasse/api/allsportsapi2)
