@@ -1,7 +1,7 @@
 aid: all-sports-api
 url: >-
   https://raw.githubusercontent.com/api-evangelist/all-sports-api/refs/heads/main/apis.yml
-modified: '2026-04-19'
+modified: '2026-06-20'
 name: All Sports API
 description: >-
   All Sports API is a fast, reliable, and comprehensive sports data API
@@ -92,6 +92,16 @@ common:
     url: https://allsportsapi.com/
   - type: SignUp
     url: https://allsportsapi.com/register
+  - type: Packages
+    url: packages/all-sports-api-packages.yml
+  - type: WellKnown
+    url: well-known/all-sports-api-well-known.yml
+  - type: LLMsTxt
+    url: llms/all-sports-api-llms.txt
+  - type: Conformance
+    url: conformance/all-sports-api-conformance.yml
+  - type: Lifecycle
+    url: lifecycle/all-sports-api-lifecycle.yml
 tags:
   - Sports
   - Football

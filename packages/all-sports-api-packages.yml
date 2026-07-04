@@ -1,0 +1,10 @@
+generated: '2026-06-20'
+method: searched
+source: >-
+  Searched npm, PyPI, and the official documentation for a first-party client
+  library. Provider ships free embeddable widgets and WordPress plugins but no
+  discoverable first-party SDK package.
+registries_probed:
+  - npm
+  - pypi
+packages: []

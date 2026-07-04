@@ -1,0 +1,23 @@
+generated: '2026-06-20'
+method: searched
+source: https://allsportsapi.com/soccer-football-api-documentation
+versioning:
+  scheme: uri-path
+  current: v2
+  current_detail: Football API V2 (v2.1)
+  legacy:
+    - version: v1
+      status: maintained
+      docs: https://allsportsapi.com/soccer-football-api-documentation-v1
+  docs: https://allsportsapi.com/soccer-football-api-documentation
+deprecation:
+  policy_url: null
+  sunset_header: false
+  notes: No formal deprecation policy documented; V1 is still maintained alongside V2.
+sla:
+  url: null
+  uptime_target: null
+status_page: null
+trial:
+  free_trial_days: 14
+deprecated_operations: []

@@ -1,0 +1,31 @@
+# All Sports API
+
+> All Sports API is a fast, reliable, and comprehensive sports data API providing livescore feeds, fixtures, standings, and historical data for major sports worldwide. It offers JSON pull-based APIs for football (soccer), basketball, cricket, and tennis, with hockey, baseball, and American football available as additional sports. The API base host is apiv2.allsportsapi.com and uses API key authentication with sport-specific endpoints accessed via the `met` query parameter. Plans include a 14-day free trial.
+
+## APIs
+
+- [All Sports Football API](https://allsportsapi.com/soccer-football-api): Real-time and historical football (soccer) data — livescores, fixtures, standings, teams, players, and league data. Base: https://apiv2.allsportsapi.com/football
+- [All Sports Basketball API](https://allsportsapi.com/basketball-api-documentation): Real-time and historical basketball data — livescores, fixtures, standings, countries, and leagues. Base: https://apiv2.allsportsapi.com/basketball
+- [All Sports Cricket API](https://allsportsapi.com/cricket-api-documentation): Real-time and historical cricket data — livescores, fixtures, standings, and leagues. Base: https://apiv2.allsportsapi.com/cricket
+- [All Sports Tennis API](https://allsportsapi.com/tennis-api-documentation): Real-time and historical tennis data — livescores, fixtures, standings, and tournaments. Base: https://apiv2.allsportsapi.com/tennis
+
+## Docs
+
+- [Football API Documentation](https://allsportsapi.com/soccer-football-api-documentation)
+- [Basketball API Documentation](https://allsportsapi.com/basketball-api-documentation)
+- [Cricket API Documentation](https://allsportsapi.com/cricket-api-documentation)
+- [Tennis API Documentation](https://allsportsapi.com/tennis-api-documentation)
+
+## Access
+
+- [Website](https://allsportsapi.com/)
+- [Pricing](https://allsportsapi.com/)
+- [Sign Up](https://allsportsapi.com/register)
+
+## Notes
+
+- Authentication: static `APIkey` query parameter on every request.
+- Request model: read-only HTTP GET pull requests; operations selected via the `met` query parameter (e.g. `met=Countries`, `met=Fixtures`, `met=Livescore`, `met=Standings`).
+- Response envelope: JSON with `{"success":1,"result":[...]}`; errors are signalled with `success:0`.
+- Versioning: Football API V2 (v2.1) is current; a maintained V1 remains at https://allsportsapi.com/soccer-football-api-documentation-v1
+- No OpenAPI definition, SDK package, MCP server, or /.well-known discovery documents are published by the provider as of this writing.
