@@ -84,6 +84,8 @@ apis:
       - type: Documentation
         url: https://allsportsapi.com/tennis-api-documentation
 common:
+  - type: DomainSecurity
+    url: security/all-sports-api-domain-security.yml
   - type: Website
     url: https://allsportsapi.com/
   - type: Documentation
