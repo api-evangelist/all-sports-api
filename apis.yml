@@ -24,7 +24,7 @@ accessModel:
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/all-sports-api.png
 url: >-
   https://raw.githubusercontent.com/api-evangelist/all-sports-api/refs/heads/main/apis.yml
-modified: '2026-06-20'
+modified: '2026-10-06'
 name: All Sports API
 description: >-
   All Sports API is a fast, reliable, and comprehensive sports data API
@@ -107,6 +107,8 @@ apis:
       - type: Documentation
         url: https://allsportsapi.com/tennis-api-documentation
 common:
+  - url: https://allsportsapi.com/blog
+    type: Blog
   - type: DomainSecurity
     url: security/all-sports-api-domain-security.yml
   - type: Website
