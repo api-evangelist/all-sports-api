@@ -64,18 +64,90 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-All Sports API is a fast, reliable, and comprehensive sports data API providing livescore feeds, fixtures, standings, and historical data for major sports worldwide. The platform offers JSON pull-based APIs for football (soccer), basketball, cricket, and tennis, with hockey, baseball, and American football available as additional sports.
+All Sports API is a fast, reliable, and comprehensive sports data API providing livescore feeds, fixtures, standings, and historical data for major sports worldwide. The platform offers JSON pull-based APIs for football (soccer), basketball, cricket, and tennis, with hockey, baseball, and American football available as additional sports. The API base URL is apiv2.allsportsapi.com and uses API key authentication with sport-specific endpoints accessed via the met query parameter. All Sports API also provides free embeddable widgets (results, fixtures, standings, livescore) and WordPress plugins. Plans include a 14-day free trial.
 
-The API base URL is `apiv2.allsportsapi.com` and uses API key authentication. All Sports API also provides free embeddable widgets (results, fixtures, standings, livescore) and WordPress plugins for easy website integration. Plans include a 14-day free trial.
+**Areas:** Sports · Football · Soccer · Basketball · Cricket · Tennis · Livescore · Sports Data · Fixtures · Standings
 
-## APIs
+## All Sports API on APIs.io
 
-- **[Football API](https://allsportsapi.com/soccer-football-api)** - Real-time and historical football/soccer data including livescores, fixtures, standings, and statistics
-- **[Basketball API](https://allsportsapi.com/basketball-api-documentation)** - Basketball livescores, fixtures, standings, countries, and league data
-- **[Cricket API](https://allsportsapi.com/cricket-api-documentation)** - Cricket livescores, fixtures, and competition data
-- **[Tennis API](https://allsportsapi.com/tennis-api-documentation)** - Tennis livescores, fixtures, and tournament information
+Everything profiled for All Sports API is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/all-sports-api/](https://apis.io/providers/all-sports-api/)** — or go straight to one of the APIs or properties below.
 
-## Links
+### APIs (4)
+
+- [All Sports Football API](https://apis.io/apis/all-sports-api/football-api/) — The All Sports Football (Soccer) API provides real-time and historical football data including livescores, fixtures, standings, team information, player…
+- [All Sports Basketball API](https://apis.io/apis/all-sports-api/basketball-api/) — The All Sports Basketball API provides real-time and historical basketball data including livescores, fixtures, standings, countries, and league…
+- [All Sports Cricket API](https://apis.io/apis/all-sports-api/cricket-api/) — The All Sports Cricket API provides real-time and historical cricket data including livescores, fixtures, standings, and league information for major…
+- [All Sports Tennis API](https://apis.io/apis/all-sports-api/tennis-api/) — The All Sports Tennis API provides real-time and historical tennis data including livescores, fixtures, standings, and tournament information for major…
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [All Sports Api Domain Security](https://apis.io/security/all-sports-api/all-sports-api-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
 
 - [Website](https://allsportsapi.com/)
-- [RapidAPI Listing](https://rapidapi.com/fluis.lacasse/api/allsportsapi2)
+- [Documentation](https://allsportsapi.com/)
+- [Pricing](https://allsportsapi.com/)
+- [Sign up](https://allsportsapi.com/register)
+- [Blog](https://allsportsapi.com/blog)
+
+## API Evangelist rating
+
+**Kin Score 14.9** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 78.6 |
+| Contract quality | 0.0 |
+| Contract governance | 4.5 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 11.9 |
+| Access clarity | 23.7 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 10.8** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/all-sports-api/](https://apis.io/providers/all-sports-api/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for All Sports API: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/all-sports-api/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
